@@ -7,7 +7,7 @@
 // .trim() kırpma işleminde
 // .toUpperCase() büyük harfe çevirmek
 // .toLowerCase() küçük harfe çevirmek
-// .repeat()
+// .repeat() tekraralama
 // .startWith()
 // .endsWith()
 // .includes()
