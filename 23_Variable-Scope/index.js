@@ -25,7 +25,4 @@ function function2() {
  dışarıdan bakarak ama bu iki evinde pencereden baktığında dışardaki
  sokak lambasını istedikleri zaman görebiliyorlar yani erişebiliyorlar
  buda global scope dur.
-
-
-
 */
