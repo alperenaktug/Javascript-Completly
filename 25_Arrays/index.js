@@ -14,7 +14,7 @@ let fruits = ["apple", "orange", "banana", "coconut"];
 // console.log(fruits[2]);
 // console.log(fruits[3]);
 
-// let numOfFruits = fruits.length; // di<ideki eleman sayısı
+// let numOfFruits = fruits.length; // dizideki eleman sayısı
 // console.log(numOfFruits);
 
 // let index = fruits.indexOf("apple"); // eleamnın kaçıncı indexde olduğu
