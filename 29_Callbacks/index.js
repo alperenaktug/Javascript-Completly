@@ -45,3 +45,5 @@ function displayPage(result) {
 // Bu bir geri aramadır başka bir fonksiyona argüman olarak iletilen
 // bir fonksiyondur. Değişken miktarda zaman alan asenkron
 // işlemlerin gerçekleştirilmesinde görev alırlar .
+// ağ isteklerinde ve veritabanı işlemlerindeki zmanalama
+// ne zaman gerçekleşeceği gibi işlemlerde kullanılırlar.
