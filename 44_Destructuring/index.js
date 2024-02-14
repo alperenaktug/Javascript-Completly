@@ -33,10 +33,44 @@ ardından bunları değişkenlere uygun bir şekilde atayın
 // example 3
 // Değişkenlere dizideki elemanları atarız
 
-const colors = ["red", "green", "blue", "black", "white"];
+// const colors = ["red", "green", "blue", "black", "white"];
 
-const [firstColor, secondColor, thirdColor] = colors;
+// const [firstColor, secondColor, thirdColor] = colors;
 
-console.log(firstColor);
-console.log(secondColor);
-console.log(thirdColor);
+// console.log(firstColor);
+// console.log(secondColor);
+// console.log(thirdColor);
+
+//example 4
+//obje değerlerini değiştirebiliriz
+
+const person1 = {
+  firstName: "Spongebob",
+  lastName: "Squarepants",
+  age: 30,
+  job: "Fry cook",
+};
+const person2 = {
+  firstName: "Patrick",
+  lastName: "Star",
+  age: 34,
+};
+
+const { firstName, lastName, age, job = "Unemployed" } = person2;
+
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(job);
+
+//example 5
+//fonksiyon parametrelerini yıkabiliriiz
+
+function displayPerson({ firstName, lastName, age, job = "Unemployed" }) {
+  console.log(`name: ${firstName} ${lastName}`);
+  console.log(`age: ${age}`);
+  console.log(`job: ${job}`);
+}
+
+displayPerson(person1);
+displayPerson(person2);
