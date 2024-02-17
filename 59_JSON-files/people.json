@@ -1,0 +1,19 @@
+[{
+  "name" : "Polat Alemdar",
+  "age" : 34 ,
+  "isEmployed" : true
+  
+},
+{
+  "name" : "Memati Baş",
+  "age" : 32 ,
+  "isEmployed" : false
+  
+},
+{
+  "name" : "Abdülhey",
+  "age" : 29 ,
+  "isEmployed" : false
+  
+}
+]
